@@ -1,0 +1,7 @@
+name: Maps Fields
+type: module
+description: 'Provides field types for maps.'
+package: Field types
+dependencies:
+  - field
+core: '8.x'
