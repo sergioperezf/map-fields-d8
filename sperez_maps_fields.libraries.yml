@@ -1,0 +1,3 @@
+google.gmaps-lib:
+  remote: https://developers.google.com/maps/documentation/javascript/
+  version:
