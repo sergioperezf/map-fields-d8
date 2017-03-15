@@ -1,0 +1,7 @@
+sperez_maps_fields.settings:
+  path: '/admin/structure/sperez_maps_fields/settings'
+  defaults:
+    _form: '\Drupal\sperez_maps_fields\Form\SettingsForm'
+    _title: 'Configure maps fields settings'
+  requirements:
+    _permission: 'administer site configuration'
