@@ -1,0 +1,16 @@
+google.gmaps-lib:
+  remote: https://developers.google.com/maps/documentation/javascript/
+  version: 3
+  license: GPL
+  js:
+    https://maps.googleapis.com/maps/api/js: { type: external }
+
+select_point_form:
+  version: 1.x
+  js:
+    js/gmaps-select-point.js: {}
+  css:
+    base:
+      css/gmaps-select-point.css: {}
+  dependencies:
+    - sperez_maps_fields/google.gmaps-lib

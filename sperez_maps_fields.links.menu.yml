@@ -1,0 +1,5 @@
+sperez_maps_fields.settings:
+  title: 'Configure Maps Fields'
+  route_name: sperez_maps_fields.settings
+  description: 'Configure settings for the Maps Fields module.'
+  parent: system.admin_structure

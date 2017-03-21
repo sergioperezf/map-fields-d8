@@ -1,0 +1,5 @@
+<?php
+
+function sperez_maps_fields_element_info_alter(&$types) {
+  var_export(array_keys($types));
+}
